@@ -1,4 +1,4 @@
-# EduSeeker
+# Coursetrail
 
 **Bachelor Thesis Project - University of Piraeus, Department of Informatics**
 
@@ -6,7 +6,7 @@ Interactive web application for discovering and recommending the most suitable o
 
 ## Overview
 
-EduSeeker aggregates online courses from multiple platforms (Udemy, Coursera, edX, Pluralsight, YouTube) and provides personalized, explainable recommendations based on user preferences and interactions. The recommendation system is deterministic and transparent, explaining the reasoning behind each suggestion.
+Coursetrail aggregates online courses from multiple platforms (Udemy, Coursera, edX, Pluralsight, YouTube) and provides personalized, explainable recommendations based on user preferences and interactions. The recommendation system is deterministic and transparent, explaining the reasoning behind each suggestion.
 
 ## Features
 

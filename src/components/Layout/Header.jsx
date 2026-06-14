@@ -65,7 +65,7 @@ export function Header() {
         {/* Logo */}
         <Link to="/" className={styles.logo}>
           <span className={styles.logoIcon}>📚</span>
-          <span className={styles.logoText}>EduSeeker</span>
+          <span className={styles.logoText}>Coursetrail</span>
         </Link>
 
         {/* Navigation */}
