@@ -42,8 +42,8 @@ Coursetrail aggregates online courses from multiple platforms (Udemy, Coursera, 
 ### Installation
 
 ```bash
-git clone https://github.com/Dtsiakas/course-recommendation-app.git
-cd course-recommendation-app
+git clone https://github.com/Dtsiakas/coursetrail.git
+cd coursetrail
 
 npm install
 
@@ -73,14 +73,21 @@ src/
 
 ## Recommendation Engine
 
-The recommendation system uses a deterministic scoring algorithm:
+The recommendation system uses a deterministic additive scoring algorithm with a maximum total of 100 points:
 
 ```
-Total Score = (Preference Score x 0.6) + (Interaction Score x 0.4)
+Total Score = Technology Match (0-40)
+            + Difficulty Match (0-20)
+            + Depth Match      (0-15)
+            + Duration Match   (0-15)
+            + Interaction Boost (0-10)
 ```
 
-- **Preference Score** (max 100): Technology match, difficulty match, depth match, duration match
-- **Interaction Score** (max 100): Similarity to favorited and positively rated courses
+- **Technology Match** (max 40): Ratio of preferred technologies covered by the course
+- **Difficulty Match** (max 20): Ordinal distance between preferred and course difficulty
+- **Depth Match** (max 15): Ordinal distance between preferred and course depth
+- **Duration Match** (max 15): Ordinal distance between preferred and course duration
+- **Interaction Boost** (max 10): Similarity to favorited and positively rated courses
 
 Each recommendation includes a human-readable explanation of why it was suggested.
 
