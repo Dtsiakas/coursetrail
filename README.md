@@ -1,4 +1,4 @@
-# Coursetrail
+# Praxilearn
 
 **Bachelor Thesis Project - University of Piraeus, Department of Informatics**
 
@@ -6,7 +6,7 @@ Interactive web application for discovering and recommending the most suitable o
 
 ## Overview
 
-Coursetrail aggregates online courses from multiple platforms (Udemy, Coursera, edX, Pluralsight, YouTube) and provides personalized, explainable recommendations based on user preferences and interactions. The recommendation system is deterministic and transparent, explaining the reasoning behind each suggestion.
+Praxilearn aggregates online courses from multiple platforms (Udemy, Coursera, edX, Pluralsight, YouTube) and provides personalized, explainable recommendations based on user preferences and interactions. The recommendation system is deterministic and transparent, explaining the reasoning behind each suggestion.
 
 ## Features
 
@@ -42,8 +42,8 @@ Coursetrail aggregates online courses from multiple platforms (Udemy, Coursera, 
 ### Installation
 
 ```bash
-git clone https://github.com/Dtsiakas/coursetrail.git
-cd coursetrail
+git clone https://github.com/Dtsiakas/praxilearn.git
+cd praxilearn
 
 npm install
 
