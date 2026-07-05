@@ -1,4 +1,4 @@
-# Praxilearn
+# Recoursion
 
 **Bachelor Thesis Project - University of Piraeus, Department of Informatics**
 
@@ -6,7 +6,7 @@ Interactive web application for discovering and recommending the most suitable o
 
 ## Overview
 
-Praxilearn aggregates online courses from multiple platforms (Udemy, Coursera, edX, Pluralsight, YouTube) and provides personalized, explainable recommendations based on user preferences and interactions. The recommendation system is deterministic and transparent, explaining the reasoning behind each suggestion.
+Recoursion aggregates online courses from multiple platforms (Udemy, Coursera, edX, Pluralsight, YouTube) and provides personalized, explainable recommendations based on user preferences and interactions. The recommendation system is deterministic and transparent, explaining the reasoning behind each suggestion.
 
 ## Features
 
@@ -42,8 +42,8 @@ Praxilearn aggregates online courses from multiple platforms (Udemy, Coursera, e
 ### Installation
 
 ```bash
-git clone https://github.com/Dtsiakas/praxilearn.git
-cd praxilearn
+git clone https://github.com/Dtsiakas/recoursion.git
+cd recoursion
 
 npm install
 
